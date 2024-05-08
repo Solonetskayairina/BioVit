@@ -1,16 +1,14 @@
     import React from "react";
-    import {ROUTES} from "../../utils/routes";
+    import TopHeader from "../TopHeader/TopHeader";
+    import BottomHeader from "../BottomHeader/BottomHeader";
 
     const Header = () => {
         return (
             <div>
-                <div>
-                    <link to={ROUTES.HOME}>
-
-                    </link>
-                </div>
+                <TopHeader />
+                <BottomHeader />
             </div>
-        )
-    }
+        );
+    };
 
-    export default Header
+    export default Header;
